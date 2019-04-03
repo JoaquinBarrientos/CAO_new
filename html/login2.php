@@ -29,8 +29,8 @@
                     <div class="form-group" id="contrasena-group">
                         <input type="password" class="form-control" placeholder="Contraseña"/>
                     </div>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
-                    <br><a href="../index.html" class="btn btn-danger">SALIR</a>
+                    <a class="btn btn-primary" href="principal.php"><i class="fas fa-sign-in-alt"></i> Ingresar </button></a>
+                    <br><br><a href="../index.html" class="btn btn-danger">SALIR</a>
                 </form>
                 </div>
             </div>
