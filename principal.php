@@ -57,7 +57,7 @@
                 else
                 {
                     echo "<center>
-                    <img src='img/biblio.jpg' height=20% width=40% alt='Imagen Biblioteca'>
+                    <img class='img-responsive' src='img/biblio.jpg' width='40%' alt='Imagen Biblioteca'>
                     </center>
                     ";
                 }
