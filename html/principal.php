@@ -1,55 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>PAGINA PRINCIPAL</title>
-  </head>
-  <body>
-      <!--<section class="container-fluid slider d-flex justify-content-center align-items-center">-->
-        <header>
-       <img src="../img/b2.jpg" height=10% width=100% alt="imagenfondo">
-       </header>  
-    <!--</section>-->
-      <nav class="nnavbar navbar-expand-lg navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<body>
+    <!--Parte Inicial-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-content"
+          aria-expanded="false" aria-label="Desplegar Navegación">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+        <a class="navbar-brand" href="index.php">Biblioteca del Centro</a>
+        <!--Enlaces-->
+        <div class="collapse navbar-collapse" id="nav-content">
             <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Salir <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
+                     aria-haspopup="true" aria-expanded="false">Ejercicios 1 a 5</a>
+                    <div class="dropdown-menu" aria-labelledby="Preview">
+                        <a href="index.php?pg=ejer1.php" class="dropdown-item">Ejercicio 1</a>
+                        <a href="index.php?pg=ejer2.php" class="dropdown-item">Ejercicio 2</a>
+                        <a href="index.php?pg=ejer3.php" class="dropdown-item">Ejercicio 3</a>
+                        <a href="index.php?pg=ejer4.php" class="dropdown-item">Ejercicio 4</a>
+                        <a href="index.php?pg=ejer5.php" class="dropdown-item">Ejercicio 5</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
+                     aria-haspopup="true" aria-expanded="false">Ejercicios 6 a 7</a>
+                    <div class="dropdown-menu" aria-labelledby="Preview">
+                        <a href="index.php?pg=ejer6.php" class="dropdown-item">Ejercicio 6</a>
+                        <a href="index.php?pg=ejer7.php" class="dropdown-item">Ejercicio 7</a>
+                        <a href="index.php?pg=ejer7v2.php" class="dropdown-item">Ejercicio 7 Versión 2</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
+                     aria-haspopup="true" aria-expanded="false">Ejercicios Especiales</a>
+                    <div class="dropdown-menu" aria-labelledby="Preview">
+                        <a href="index.php?pg=ejer11.php" class="dropdown-item">Ejercicio 1</a>
+                    </div>
+                </li>
             </ul>
         </div>
-        </nav>
+    </nav>
+    <div class="col-sm-12" style="margin-top:10px;">
+        <div class="card">
+            <?php 
+                if(isset($_GET['pg']))
+                {
+                    include($_GET['pg']);
+                }
+                else
+                {
+                    echo "
+                        <div class='card-header'>
+                            Guía Practica #4
+                        </div>
+                        <div class='card-block'>
+                            <h4 class='card-title'>José Marcelo Hernández Cerritos</h4>
+                            <p class='card-text'>SIS 32B<br>Desarrollo de Aplicaciones para la Web</p>
+                        </div>
+                    ";
+                }
+            ?>
+        </div>
+    </div>
+    <!-- Scripts JS-->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
 </html>
