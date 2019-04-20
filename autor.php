@@ -7,9 +7,15 @@
     </div>
   </div>
   <div class="form-group">
-    <label class="control-label col-sm-2" for="Seudonimo">Seudonimo</label>
+    <label class="control-label col-sm-2" for="Seudonimo">Pseudónimo</label>
     <div class="col-sm-10"> 
       <input type="text" class="form-control" id="seud" placeholder="J.J.Hernández">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="naci">Nacionalidad</label>
+    <div class="col-sm-10"> 
+      <input type="text" class="form-control" id="naci" placeholder="Salvadoreño">
     </div>
   </div>
   <div class="form-group">

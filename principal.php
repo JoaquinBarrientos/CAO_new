@@ -9,20 +9,27 @@
 </head>
 
 <body>
-    <!--Parte Inicial-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+   <!--Parte Inicial-->
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-content" aria-expanded="false" aria-label="Desplegar Navegación">
                <span class="navbar-toggler-icon"></span>
            </button>
-        <a class="navbar-brand" href="index.html">Biblioteca del Centro</a>
+        <a class="navbar-brand" href="index.html">Logout</a>
+        <a class="navbar-brand" href="#">      </a>
+        <a class="navbar-brand" href="principal.php?pg=autor.php">Autor</a>
+        <a class="navbar-brand" href="#">      </a>
+        <a class="navbar-brand" href="principal.php?pg=registro.php">Registro (Libro)</a>
+        <a class="navbar-brand" href="#">     </a>
+        <a class="navbar-brand" href="principal.php?pg=registro.php">Asignatura</a>
+
         <!--Enlaces-->
-        <div class="collapse navbar-collapse" id="nav-content">
+        <!--<div class="collapse navbar-collapse" id="nav-content">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nuevo</a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
                         <a href="principal.php?pg=autor.php" class="dropdown-item">Autor</a>
-                        <a href="#" class="dropdown-item">Registro (Libro)</a>
+                        <a href="principal.php?pg=registro.php" class="dropdown-item">Registro (Libro)</a>
                         <a href="#" class="dropdown-item">Asignatura</a>
                         <a href="#" class="dropdown-item">Taller</a>
                     </div>
@@ -37,7 +44,7 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </div>-->
     </nav>
     <div class="col-sm-12" style="margin-top:10px;">
         <div class="card">
