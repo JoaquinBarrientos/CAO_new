@@ -13,14 +13,14 @@
         <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
         <!--CSS propio-->
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
     <div class="modal-dialog text-center">
         <div class="col-sm-8 main-section">
             <div class="modal-content">
                 <div class="col-12 user-img">
-                    <img src="../img/avatar.png"/>
+                    <img src="img/avatar.png"/>
                 
                <form class="col-12">
                     <div class="form-group" id="user-group">
@@ -30,7 +30,7 @@
                         <input type="password" class="form-control" placeholder="Contraseña"/>
                     </div>
                     <a class="btn btn-primary" href="principal.php"><i class="fas fa-sign-in-alt"></i> Ingresar </button></a>
-                    <br><br><a href="../index.html" class="btn btn-danger">SALIR</a>
+                    <br><br><a href="index.html" class="btn btn-danger">SALIR</a>
                 </form>
                 </div>
             </div>
