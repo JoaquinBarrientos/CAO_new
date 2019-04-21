@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 
@@ -14,7 +14,7 @@
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-content" aria-expanded="false" aria-label="Desplegar Navegación">
                <span class="navbar-toggler-icon"></span>
            </button>
-        <a class="navbar-brand" href="index.html">Logout [X]</a>
+        <a class="navbar-brand" href="../index.html">Logout [X]</a>
         <a class="navbar-brand" href="#">&raquo;</a>
         <a class="navbar-brand" href="principal.php?pg=autor.php">Autor</a>
         <a class="navbar-brand" href="#">&raquo;</a>
@@ -56,7 +56,7 @@
                 else
                 {
                     echo "<center>
-                    <img class='img-responsive' src='img/biblio.jpg' width='40%' alt='Imagen Biblioteca'>
+                    <img class='img-responsive' src='../assets/img/biblio.jpg' width='40%' alt='Imagen Biblioteca'>
                     </center>
                     ";
                 }
