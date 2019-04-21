@@ -1,30 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>BIBLIOTECA DEL CENTRO</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
-
-</head>
-
-<body>
-
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
@@ -64,7 +37,7 @@
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="mx-auto d-block">
-              <a href="#"><img src="img/005-computer-mouse.png" width="100" height="100"></a> <!-- Agregue esto para las imágenes-->
+              <a href="#"><img src="assets/img/005-computer-mouse.png" width="100" height="100"></a> <!-- Agregue esto para las imágenes-->
             </div>
             <h3>Ciencias de la computación</h3>
             <p class="lead mb-0">Información y Obras generales</p>
@@ -75,7 +48,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-layers m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/filosofia.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/filosofia.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Filosofía </h3>
@@ -87,7 +60,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-check m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/religion.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/religion.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Religión</h3>
@@ -99,7 +72,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/cienciasocial.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/cienciasocial.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Ciencias </h3>
@@ -111,7 +84,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/Lenguas.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/Lenguas.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Lenguas</h3>
@@ -123,7 +96,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/Aplicadas.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/Aplicadas.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Tecnología </h3>
@@ -135,7 +108,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/artes.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/artes.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Artes </h3>
@@ -147,7 +120,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/recreacion.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/recreacion.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Artes</h3>
@@ -159,7 +132,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#"><img src="img/literatura.png" width="100" height="100"></a>
+                <a href="#"><img src="assets/img/literatura.png" width="100" height="100"></a>
               </div>
             </div>
             <h3>Literatura</h3>
@@ -171,7 +144,7 @@
             <div class="features-icons-icon d-flex">
               <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
               <div class="mx-auto d-block">
-                <a href="#" ><img src="img/geografia.png" width="100" height="100" href="#"></a>
+                <a href="#" ><img src="assets/img/geografia.png" width="100" height="100" href="#"></a>
               </div>
             </div>
             <h3>Historia</h3>
@@ -181,35 +154,3 @@
       </div>
     </div>
   </section>
-  <!-- Footer -->
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Biblioteca del centro<br>APACULSA<br>Derechos Reservados.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="https://www.facebook.com/profile.php?id=100008813769724&lst=100007272940603%3A100008813769724%3A1555801617&sk=timeline" target="_blank">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/biblioteca_centro/" target="_blank">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
