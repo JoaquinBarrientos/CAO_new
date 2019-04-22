@@ -1,4 +1,4 @@
-<div class="conteiner">
+<div class="col -5">
   <form class="form-horizontal" action="">
   <div class="form-group">
     <label class="control-label col-sm-2" for="nombrelibro">Nombre del Libro:</label>
