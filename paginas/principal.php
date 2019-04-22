@@ -14,7 +14,7 @@
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-content" aria-expanded="false" aria-label="Desplegar Navegación">
                <span class="navbar-toggler-icon"></span>
            </button>
-        <a class="navbar-brand" href="../index.html">Logout [X]</a>
+        <a class="navbar-brand" href="../index.php">Logout [X]</a>
         <a class="navbar-brand" href="#">&raquo;</a>
         <a class="navbar-brand" href="principal.php?pg=autor.php">Autor</a>
         <a class="navbar-brand" href="#">&raquo;</a>
